@@ -1,0 +1,49 @@
+.HomeImage{
+    overflow: hidden;
+    margin: 1rem 2rem;   
+}
+
+@media screen and (max-width:1040) {
+    .HomeImage{
+        overflow: hidden;
+        height: 20rem;
+        
+    }
+}
+
+/* 1st row style */
+.head{
+    font-size: 1.5rem;
+    margin: 3rem 0 1rem 1rem;
+    font-family: 'Ubuntu',sans-serif;
+}
+.rowA{
+    display: flex;
+    margin: 2rem;
+    border-right: 5px solid rgb(119, 68, 68);
+}
+.row1{
+    padding: 0 2rem;
+}
+.r1{
+    position: relative;
+    left: 2.5rem;
+}
+@media screen and (max-width:1600px) {
+    .row1{
+       width: 30rem;
+    }
+}
+.f{
+    background-color: #2874f0;
+    font-family: 'Lato',sans-serif;
+    height: 3.5rem;
+}
+.f p{
+    display: flex;
+   justify-content: center;
+   color: white;
+   padding-top: 1rem;
+   font-family: 'Lato',sans-serif;
+   font-weight: bolder;
+}

@@ -1,0 +1,31 @@
+@media screen and (max-width:1040px) {
+    header{
+        height: 10rem;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+    .Search{
+        justify-content: center;
+    }
+    .Search input{
+        justify-content: center;
+       margin: 12px 16px;
+    }
+}
+@media screen and (max-width:400px) {
+    .Search input{
+        padding: .2rem;
+        width: 80px;
+    }
+    .btn{
+        margin-right: 1rem;
+        margin-left: .1rem;
+        padding: .1rem;
+    }
+    ul li{
+        justify-content: center;
+        padding: .5rem;
+    }
+}

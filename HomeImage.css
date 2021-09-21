@@ -34,23 +34,24 @@
     .rowA{
         display: grid;
         grid-template-columns: auto auto auto auto;
-       
+        grid-row-gap: 3rem;
     }
-    .f{
+    
     }
     @media screen and (max-width:1000px) {
         .rowA{
             display: grid;
             grid-template-columns: auto auto auto;
-        
+            grid-row-gap: 3rem;
         }
     }
     @media screen and (max-width:750px) {
         .rowA{
             display: grid;
             grid-template-columns:auto;
-        
+           grid-row-gap: 3rem;
         }
+.f{
     background-color: #2874f0;
     font-family: 'Lato',sans-serif;
     height: 3.5rem;
